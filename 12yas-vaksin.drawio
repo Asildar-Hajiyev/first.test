@@ -1,1 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2021-10-13T22:59:28.018Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" version="15.5.2" etag="1ZBQ4DdyR79uiEDnv7iP" type="github"><diagram id="WyQpHJRbb8t2kou5l77S">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-13T23:04:27.734Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" etag="KoLCtIhKQdoKzFWPWGtZ" version="15.5.2" type="github">
+  <diagram id="WyQpHJRbb8t2kou5l77S" name="Page-1">
+    <mxGraphModel dx="782" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WoHvxkNUASR5e9T_33sl-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WoHvxkNUASR5e9T_33sl-1" target="WoHvxkNUASR5e9T_33sl-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WoHvxkNUASR5e9T_33sl-1" value="start!" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WoHvxkNUASR5e9T_33sl-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WoHvxkNUASR5e9T_33sl-2" target="WoHvxkNUASR5e9T_33sl-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WoHvxkNUASR5e9T_33sl-2" value="int n;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WoHvxkNUASR5e9T_33sl-7" value="true" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WoHvxkNUASR5e9T_33sl-4" target="WoHvxkNUASR5e9T_33sl-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WoHvxkNUASR5e9T_33sl-9" value="else" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WoHvxkNUASR5e9T_33sl-4" target="WoHvxkNUASR5e9T_33sl-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="500" />
+              <mxPoint x="140" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WoHvxkNUASR5e9T_33sl-4" value="n&amp;gt;=12" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="320" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WoHvxkNUASR5e9T_33sl-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WoHvxkNUASR5e9T_33sl-6" target="WoHvxkNUASR5e9T_33sl-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WoHvxkNUASR5e9T_33sl-6" value="printf (vaksin vurdursun)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="340" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WoHvxkNUASR5e9T_33sl-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WoHvxkNUASR5e9T_33sl-8" target="WoHvxkNUASR5e9T_33sl-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WoHvxkNUASR5e9T_33sl-8" value="printf (vaksin olmaz)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="540" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WoHvxkNUASR5e9T_33sl-10" value="end!" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="460" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
